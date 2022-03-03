@@ -34,6 +34,7 @@ public class Inventory {
             inventoryMap.put(coffeeType,availbleBeans-1);
             logger.debug("Available stock : {}" ,inventoryMap.get(coffeeType));
         }
-        else logger.debug("No Stock available");
+        else {logger.debug("No Stock available");
+    }
     }
 }
